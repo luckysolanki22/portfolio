@@ -115,18 +115,48 @@
             66% { background-image: url('images/4u_3.jpg'); }
             100% { background-image: url('images/4u_4.jpg') }
         }
+        @media screen and (max-width: 1024px) {
+    
+    .menu:hover {
+        width: 160px;
+    }
+    .project-card {
+        height: 200px; /* Reduce height */
+        width: calc(30% - 20px); /* Increase width */
+        padding: 10px; /* Adjust padding */
+        margin: 7px;
+    }
+
+    .div {
+        height: 150px; /* Reduce project image height */
+    }
+
+    .project-card h3 {
+        font-size: 1em; /* Reduce heading size */
+    }
+
+    .project-card p {
+        font-size: 0.8em; /* Reduce description text size */
+    }
+
+    .description {
+        margin-left: 160px; /* Push text away from sidebar */
+        font-size: 0.9em; /* Reduce text size slightly */
+        max-width: 60%; /* Limit width to prevent stretching */
+    }
+}
     </style>
 </head>
 <body>
     <h1 class="title">Projects Section</h1>
     <p class="description">Inspirational designs, illustrations, and graphic elements from the world’s best designers. Want more inspiration? Browse our search results...</p>
     <div class="menu">
-        <ul class="menu-content">
+       <ul class="menu-content">
             <li><a href="index.html"><span class="material-symbols-outlined">home</span><span>Home</span></a></li>
             <li><a href="project.html"><span class="material-symbols-outlined">dashboard</span><span>Projects</span></a></li>
             <!-- <li><a href="#"><span class="material-symbols-outlined">explore</span><span>Explore</span></a></li> -->
             <li><a href="barchart.html"><span class="material-symbols-outlined">analytics</span><span>Skills</span></a></li>
-            <li><a href="#"><span class="material-symbols-outlined">settings</span><span>Settings</span></a></li>
+            <li><a href="experience.html"><span class="material-symbols-outlined">stars</span><span>Experience</span></a></li>
             <li><a href="#"><span class="material-symbols-outlined">person</span><span>Account</span></a></li>
             <li><a href="#"><span class="material-symbols-outlined">email</span><span>Contact</span></a></li>
            
