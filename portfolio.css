@@ -240,3 +240,35 @@ a {
     box-shadow: 0 0 10px 3px rgba(255, 75, 92, 0.8), 
                 0 0 15px 5px rgba(255, 174, 66, 0.8); */
 }
+
+@media screen and (max-width: 1024px) {
+    /* Decrease "Hello World" size by 20% */
+    .glowing-wave span {
+        font-size: 40px; 
+    }
+
+
+    /* Decrease search field width by 40% and place icon next to it */
+    .search-bar {
+        width: 180px; /* Reduced from 100% to 60% (40% decrease) */
+        height: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .search-btn {
+        width: 30px; /* Adjust width */
+        height: 30px; /* Adjust height */
+        background-color: #ff4b5c;
+        padding: 5px 8px;
+        margin-top: 5px;   
+    }
+    .menu:hover {
+        width: 160px;
+    }
+    
+    .hero-image{
+        width: 30%;
+        height: 400px
+    }
+}
+
